@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A6AB418B26DF759B002D85BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB418A26DF759B002D85BD /* AppDelegate.swift */; };
 		A6AB418D26DF759B002D85BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB418C26DF759B002D85BD /* SceneDelegate.swift */; };
-		A6AB418F26DF759B002D85BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB418E26DF759B002D85BD /* ViewController.swift */; };
+		A6AB418F26DF759B002D85BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB418E26DF759B002D85BD /* TableViewController.swift */; };
 		A6AB419226DF759B002D85BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AB419026DF759B002D85BD /* Main.storyboard */; };
 		A6AB419426DF759D002D85BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AB419326DF759D002D85BD /* Assets.xcassets */; };
 		A6AB419726DF759D002D85BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AB419526DF759D002D85BD /* LaunchScreen.storyboard */; };
+		A6AB419F26DF768B002D85BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AB419E26DF768B002D85BD /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6AB418726DF759B002D85BD /* SelfSizingCellAndDynamicType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSizingCellAndDynamicType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AB418A26DF759B002D85BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6AB418C26DF759B002D85BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6AB418E26DF759B002D85BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6AB418E26DF759B002D85BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A6AB419126DF759B002D85BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6AB419326DF759D002D85BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6AB419626DF759D002D85BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6AB419826DF759D002D85BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AB419E26DF768B002D85BD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A6AB418A26DF759B002D85BD /* AppDelegate.swift */,
 				A6AB418C26DF759B002D85BD /* SceneDelegate.swift */,
-				A6AB418E26DF759B002D85BD /* ViewController.swift */,
+				A6AB418E26DF759B002D85BD /* TableViewController.swift */,
 				A6AB419026DF759B002D85BD /* Main.storyboard */,
+				A6AB419E26DF768B002D85BD /* TableViewCell.swift */,
 				A6AB419326DF759D002D85BD /* Assets.xcassets */,
 				A6AB419526DF759D002D85BD /* LaunchScreen.storyboard */,
 				A6AB419826DF759D002D85BD /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6AB418F26DF759B002D85BD /* ViewController.swift in Sources */,
+				A6AB418F26DF759B002D85BD /* TableViewController.swift in Sources */,
+				A6AB419F26DF768B002D85BD /* TableViewCell.swift in Sources */,
 				A6AB418B26DF759B002D85BD /* AppDelegate.swift in Sources */,
 				A6AB418D26DF759B002D85BD /* SceneDelegate.swift in Sources */,
 			);
